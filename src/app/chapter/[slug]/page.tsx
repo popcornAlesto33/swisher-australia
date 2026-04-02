@@ -5,6 +5,7 @@ import PageTransition from "@/components/shared/PageTransition";
 import ChapterHero from "@/components/chapter/ChapterHero";
 import Timeline from "@/components/chapter/Timeline";
 import ChapterNav from "@/components/chapter/ChapterNav";
+import ChapterMiniMapWrapper from "@/components/chapter/ChapterMiniMapWrapper";
 
 // In Next.js 15, params is a Promise
 interface PageProps {
@@ -44,6 +45,9 @@ export default async function ChapterPage({ params }: PageProps) {
   return (
     <PageTransition>
       <ChapterHero chapter={chapter} />
+      <div className="mx-auto max-w-4xl px-4 py-8">
+        <ChapterMiniMapWrapper chapter={chapter} />
+      </div>
       <Timeline days={chapter.days} chapterColor={chapter.color} />
       <ChapterNav currentChapter={chapter} allChapters={trip.chapters} />
     </PageTransition>
