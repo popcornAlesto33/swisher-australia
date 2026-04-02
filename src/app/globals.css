@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --color-cream: #F9F6F2;
+  --color-charcoal: #2C2C2C;
+  --color-sydney: #1A3A5C;
+  --color-tasmania: #2D6A4F;
+  --color-coastal: #C87941;
+  --color-wedding: #B8860B;
+  --color-tan: #C8B99A;
+  --color-tan-light: #F5F0E8;
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
