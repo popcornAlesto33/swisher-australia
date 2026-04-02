@@ -17,9 +17,11 @@ export default function ChapterCard({ chapter }: ChapterCardProps) {
       {/* Hero background image */}
       <img
         src={chapter.heroImage}
-        alt={chapter.title}
+        alt={`${chapter.title} — ${chapter.subtitle}`}
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         loading="lazy"
+        width={600}
+        height={450}
       />
 
       {/* Dark gradient overlay at bottom for text legibility */}

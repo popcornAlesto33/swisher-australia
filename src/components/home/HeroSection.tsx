@@ -5,12 +5,15 @@ export default function HeroSection() {
       aria-label="Hero"
     >
       {/* Background image with dark overlay */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1600&q=80')",
-        }}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80"
+        alt="Sydney Opera House and Harbour Bridge at sunset"
+        className="absolute inset-0 w-full h-full object-cover"
+        fetchPriority="high"
+        width={1200}
+        height={800}
+        aria-hidden="true"
       />
       {/* Gradient overlay: dark charcoal→deep navy */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0d1b2a]/80 via-[#1a2e3b]/70 to-[#0d1b2a]/85" />

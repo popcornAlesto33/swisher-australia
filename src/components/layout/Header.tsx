@@ -34,6 +34,14 @@ export default function Header() {
 
   return (
     <>
+      {/* Skip-to-content link for keyboard and screen reader users */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:bg-[#F9F6F2] focus:px-4 focus:py-2 focus:rounded focus:text-[#2C2C2C] focus:text-sm"
+      >
+        Skip to content
+      </a>
+
       <header
         className={`fixed top-0 w-full z-50 bg-[#F9F6F2]/90 backdrop-blur-md border-b border-[#C8B99A]/30 transition-shadow duration-300 ${
           scrolled ? "shadow-md" : ""

@@ -11,9 +11,15 @@ export default function ChapterHero({ chapter }: ChapterHeroProps) {
       style={{ minHeight: "45vh" }}
     >
       {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${chapter.heroImage})` }}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={chapter.heroImage}
+        alt={`${chapter.title} — ${chapter.subtitle}`}
+        className="absolute inset-0 w-full h-full object-cover"
+        fetchPriority="high"
+        width={1200}
+        height={675}
+        aria-hidden="true"
       />
 
       {/* Dark gradient overlay — bottom for text readability */}

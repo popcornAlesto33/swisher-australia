@@ -19,7 +19,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "The Swishers Go Down Under",
   description:
-    "A 17-day family adventure across Australia — from Sydney's sparkling harbour to a wedding in Kangaroo Valley.",
+    "A personalized travel itinerary for the Swisher family's Australian adventure — November 2026",
+  metadataBase: new URL("https://swisher-au.vercel.app"),
+  openGraph: {
+    title: "The Swishers Go Down Under",
+    description:
+      "17 days across Sydney, Tasmania, the coast, and a wedding in Kangaroo Valley",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -31,7 +38,7 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <body className="antialiased min-h-screen flex flex-col">
         <Header />
-        <div className="pt-16 flex-1 flex flex-col">{children}</div>
+        <div id="main-content" className="pt-16 flex-1 flex flex-col">{children}</div>
         <Footer />
       </body>
     </html>
