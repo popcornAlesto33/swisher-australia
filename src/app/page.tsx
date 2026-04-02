@@ -32,12 +32,58 @@ export default function Home() {
             </div>
           </AnimatedSection>
 
-          {/* Chapter cards grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {/* Chapter cards flow */}
+          <div className="flex flex-col items-center gap-0">
             {trip.chapters.map((chapter, index) => (
-              <AnimatedSection key={chapter.slug} delay={index * 0.1}>
-                <ChapterCard chapter={chapter} />
-              </AnimatedSection>
+              <div key={chapter.slug} className="w-full max-w-2xl">
+                <AnimatedSection delay={index * 0.15}>
+                  <ChapterCard chapter={chapter} />
+                </AnimatedSection>
+
+                {/* Flow connector between chapters */}
+                {index < trip.chapters.length - 1 && (
+                  <AnimatedSection delay={index * 0.15 + 0.1}>
+                    <div className="flex flex-col items-center py-4">
+                      <div
+                        className="w-px h-8"
+                        style={{ backgroundColor: chapter.color, opacity: 0.4 }}
+                      />
+                      <div className="flex items-center gap-3 py-2">
+                        <div
+                          className="h-px w-8 hidden sm:block"
+                          style={{ backgroundColor: chapter.color, opacity: 0.3 }}
+                        />
+                        <div
+                          className="w-8 h-8 rounded-full flex items-center justify-center text-white text-xs"
+                          style={{ backgroundColor: trip.chapters[index + 1].color }}
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="w-3.5 h-3.5"
+                            aria-hidden="true"
+                          >
+                            <path d="M12 5v14M19 12l-7 7-7-7" />
+                          </svg>
+                        </div>
+                        <div
+                          className="h-px w-8 hidden sm:block"
+                          style={{ backgroundColor: trip.chapters[index + 1].color, opacity: 0.3 }}
+                        />
+                      </div>
+                      <div
+                        className="w-px h-8"
+                        style={{ backgroundColor: trip.chapters[index + 1].color, opacity: 0.4 }}
+                      />
+                    </div>
+                  </AnimatedSection>
+                )}
+              </div>
             ))}
           </div>
         </div>
