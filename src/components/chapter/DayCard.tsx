@@ -1,5 +1,6 @@
 import { Day } from "@/lib/types";
 import FunFact from "./FunFact";
+import HighlightGallery from "./HighlightGallery";
 
 interface DayCardProps {
   day: Day;
@@ -61,6 +62,16 @@ export default function DayCard({ day, chapterColor }: DayCardProps) {
           <ActivitySection label="Evening" text={day.activities.evening} />
         )}
       </div>
+
+      {/* Highlight photos */}
+      {day.highlights && day.highlights.length > 0 && (
+        <div className="mt-5">
+          <p className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-3">
+            What you&apos;ll see
+          </p>
+          <HighlightGallery highlights={day.highlights} chapterColor={chapterColor} />
+        </div>
+      )}
 
       {/* Fun Facts */}
       {day.funFacts && day.funFacts.length > 0 && (

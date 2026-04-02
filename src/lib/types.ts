@@ -30,4 +30,11 @@ export interface Day {
     evening?: string;
   };
   funFacts?: string[];
+  highlights?: Highlight[];
+}
+
+export interface Highlight {
+  image: string;
+  title: string;
+  caption: string;
 }
