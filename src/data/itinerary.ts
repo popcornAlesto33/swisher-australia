@@ -16,7 +16,7 @@ export const trip: Trip = {
       dates: "November 4–7",
       color: "#1A3A5C",
       heroImage:
-        "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80",
+        "https://images.unsplash.com/photo-1760129744152-14bbc87f21b6?w=1200&q=80",
       location: { lat: -33.8688, lng: 151.2093 },
       days: [
         {
@@ -26,20 +26,20 @@ export const trip: Trip = {
           subtitle: "Touchdown and first glimpse of the harbour",
           location: { lat: -33.8568, lng: 151.2153 },
           heroImage:
-            "https://images.unsplash.com/photo-1524293581917-878a6d017c71?w=1200&q=80",
+            "https://images.unsplash.com/photo-1760129744152-14bbc87f21b6?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1760129744152-14bbc87f21b6?w=400&q=80",
               title: "Circular Quay at Dusk",
               caption: "As the sun dips behind the harbour, Circular Quay transforms into a glittering stage. The ferries, the bridge, the Opera House — all lit up and waiting to welcome you.",
             },
             {
-              image: "https://images.unsplash.com/photo-1524293581917-878a6d017c71?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1751457938473-4929f5fe3ba6?w=400&q=80",
               title: "Sydney Harbour Bridge at Night",
               caption: "Few sights on Earth match the Harbour Bridge after dark — its steel arch blazing against the night sky. Standing beneath it for the first time is genuinely breathtaking.",
             },
             {
-              image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1493375366763-3ed5e0e6d8ec?w=400&q=80",
               title: "Ferry on the Harbour",
               caption: "Sydney's green-and-yellow ferries have been criss-crossing the harbour for over a century. Watching one glide past at golden hour is the perfect welcome to this extraordinary city.",
             },
@@ -64,20 +64,20 @@ export const trip: Trip = {
           subtitle: "Opera House, Harbour Bridge, and the historic Rocks",
           location: { lat: -33.8568, lng: 151.2153 },
           heroImage:
-            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=1200&q=80",
+            "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1548448651-3a65c7a38b21?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=400&q=80",
               title: "Opera House Up Close",
               caption: "When you're finally standing beneath those soaring white shells, the Opera House is even more magnificent than the photos suggest. Every angle reveals a new sculptural wonder.",
             },
             {
-              image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1663037768314-8c18a77e28b4?w=400&q=80",
               title: "Harbour Bridge Walk View",
               caption: "The view from the Harbour Bridge pedestrian path is one of Sydney's great secrets — a sweeping panorama of the city, the harbour, and the Opera House all at once.",
             },
             {
-              image: "https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1612692157179-348aefbb41b5?w=400&q=80",
               title: "The Rocks Historic Area",
               caption: "The Rocks is where Sydney's story began in 1788. Its sandstone laneways and heritage pubs feel wonderfully timeless — a village tucked inside one of the world's great cities.",
             },
@@ -102,20 +102,20 @@ export const trip: Trip = {
           subtitle: "Australia's most famous coastal walk",
           location: { lat: -33.8915, lng: 151.2767 },
           heroImage:
-            "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80",
+            "https://images.unsplash.com/photo-1506563613713-f88697472a45?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1506563613713-f88697472a45?w=400&q=80",
               title: "Bondi Beach Aerial",
               caption: "That wide golden arc, the turquoise water, the clusters of colourful umbrellas — Bondi from above looks exactly like the postcard. In person, it's even better.",
             },
             {
-              image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1662109652622-f3e1737f468d?w=400&q=80",
               title: "Coastal Walk Cliffs",
               caption: "The sandstone cliffs between Bondi and Coogee are some of the most dramatic coastal scenery you'll find anywhere. The path hugs the edge, offering heart-stopping views at every turn.",
             },
             {
-              image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1750986920214-2ad9a98e1018?w=400&q=80",
               title: "Iconic Ocean Rock Pool",
               caption: "The tidal rock pools along this coast are a Sydney institution — perfectly framed by rugged sandstone and filled with the clearest ocean water. The Bondi Icebergs is the most famous of them all.",
             },
@@ -140,20 +140,20 @@ export const trip: Trip = {
           subtitle: "A ferry ride, a beach, and a flight south",
           location: { lat: -33.7963, lng: 151.2876 },
           heroImage:
-            "https://images.unsplash.com/photo-1598948485421-33a1655d3c38?w=1200&q=80",
+            "https://images.unsplash.com/photo-1539685195332-c100780cd0db?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1539685195332-c100780cd0db?w=400&q=80",
               title: "The Manly Ferry",
               caption: "Boarding the Manly Ferry at Circular Quay is one of Sydney's great simple pleasures. As the city skyline slowly shrinks behind you, the harbour opens up in all its glory.",
             },
             {
-              image: "https://images.unsplash.com/photo-1598948485421-33a1655d3c38?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1660842532995-8c22432e0fd2?w=400&q=80",
               title: "Manly Beach",
               caption: "Manly sits at the harbour's edge like a secret escape from the city — golden surf beach on one side, calm harbour on the other. It's easy to see why locals love it so much.",
             },
             {
-              image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1722509614467-db7c14234495?w=400&q=80",
               title: "Royal Botanic Gardens",
               caption: "A peaceful oasis of ancient trees and sweeping harbour views right in the heart of the city. The gardens have been a beloved retreat for Sydneysiders since 1816.",
             },
@@ -185,7 +185,7 @@ export const trip: Trip = {
       dates: "November 8–14",
       color: "#2D6A4F",
       heroImage:
-        "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?w=1200&q=80",
+        "https://images.unsplash.com/photo-1628652462682-a7f26698096a?w=1200&q=80",
       location: { lat: -42.0, lng: 146.5 },
       days: [
         {
@@ -195,20 +195,20 @@ export const trip: Trip = {
           subtitle: "Waterfront charm and Battery Point",
           location: { lat: -42.8826, lng: 147.334 },
           heroImage:
-            "https://images.unsplash.com/photo-1589871973318-9ca1258faa93?w=1200&q=80",
+            "https://images.unsplash.com/photo-1586875573579-9946a83231f6?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1589871973318-9ca1258faa93?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1586875573579-9946a83231f6?w=400&q=80",
               title: "Salamanca Market",
               caption: "The sandstone warehouses of Salamanca Place have been transformed into one of Australia's finest cultural precincts. Every Saturday, the market fills the cobblestone square with colour, craft, and the smell of fresh Tasmanian produce.",
             },
             {
-              image: "https://images.unsplash.com/photo-1548248823-ce16a73b6d49?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1666741746817-a49df3e37880?w=400&q=80",
               title: "Battery Point Cottages",
               caption: "Battery Point's narrow streets and heritage cottages feel lifted from a Victorian novel. Walking here in the afternoon light, it's hard to believe you're in a 21st-century capital city.",
             },
             {
-              image: "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1648701173456-10e0188798f7?w=400&q=80",
               title: "Hobart Waterfront",
               caption: "Hobart's working waterfront has a charm all its own — fishing boats, historic ships, and the great bulk of Mount Wellington looming over everything. It's a city that wears its history lightly.",
             },
@@ -233,20 +233,20 @@ export const trip: Trip = {
           subtitle: "Art that challenges and wine that delights",
           location: { lat: -42.8266, lng: 147.292 },
           heroImage:
-            "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1200&q=80",
+            "https://images.unsplash.com/photo-1525861008433-cfea0a30ceee?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1525861008433-cfea0a30ceee?w=400&q=80",
               title: "MONA Museum",
               caption: "Carved into a sandstone cliff beside the Derwent River, MONA is like no museum you've ever entered. Part gallery, part carnival, part philosophical provocation — it will stay with you long after you leave.",
             },
             {
-              image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1763867641419-6661da25dbec?w=400&q=80",
               title: "Tasmanian Vineyard",
               caption: "Tasmania's cool climate produces some of Australia's most elegant wines, especially Pinot Noir and sparkling. A glass on the terrace of a Coal River Valley winery is a thoroughly civilised way to spend an afternoon.",
             },
             {
-              image: "https://images.unsplash.com/photo-1548248823-ce16a73b6d49?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1733639516781-46f7cce75c00?w=400&q=80",
               title: "Battery Point Heritage",
               caption: "The gaslit lanes of Battery Point feel like stepping back to colonial Hobart. Each cottage has a story, and the hill above the waterfront offers sweeping views across the harbour.",
             },
@@ -271,27 +271,27 @@ export const trip: Trip = {
           subtitle: "One of the world's most beautiful beaches",
           location: { lat: -42.1547, lng: 148.2873 },
           heroImage:
-            "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=80",
+            "https://images.unsplash.com/photo-1672313669835-d2a9a2d53c82?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1672313669835-d2a9a2d53c82?w=400&q=80",
               title: "Wineglass Bay Lookout",
               caption: "The moment Wineglass Bay comes into view from the lookout is one of those travel experiences you never forget. That perfect crescent of white sand, the pink granite peaks — it's exactly as beautiful as everyone promised.",
             },
             {
-              image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1638834344937-30a2275798c3?w=400&q=80",
               title: "Freycinet Hiking Trail",
               caption: "The walk up to the lookout winds through coastal heath and granite boulders, rewarding every step with expanding views. Even the trail itself is lovely — this is what wild Tasmania looks and feels like.",
             },
             {
-              image: "https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1672816613929-a2885168edb5?w=400&q=80",
               title: "Freycinet Coastline",
               caption: "The east coast of Tasmania glows in the November light — pink granite, white sand, and water in shades of turquoise you'd normally associate with the tropics. Nature really outdid itself here.",
             },
           ],
           activities: {
             morning:
-              "Drive north along the stunning east coast to Freycinet National Park. The journey itself is beautiful, passing through rolling farmland, coastal towns, and forests of eucalyptus.",
+              "The drive from Hobart takes about 2.5 hours, so aim to leave by 8am. Drive north along the stunning east coast to Freycinet National Park. The journey itself is beautiful, passing through rolling farmland, coastal towns, and forests of eucalyptus.",
             afternoon:
               "Hike to the Wineglass Bay Lookout — a moderate walk rewarded by one of the most photographed views in Australia. The bay curves in a perfect crescent of white sand, backed by the pink-granite peaks of the Hazards mountain range.",
             evening:
@@ -309,20 +309,20 @@ export const trip: Trip = {
           subtitle: "Hidden bays and granite headlands",
           location: { lat: -42.1547, lng: 148.2873 },
           heroImage:
-            "https://images.unsplash.com/photo-1469521669194-babb45599def?w=1200&q=80",
+            "https://images.unsplash.com/photo-1627259880805-0e2c1b547200?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1627259880805-0e2c1b547200?w=400&q=80",
               title: "Honeymoon Bay",
               caption: "Honeymoon Bay earns its name — a sheltered cove of extraordinary beauty, with orange lichen-covered boulders tumbling into crystal water. It's the kind of place that makes you want to stay all day.",
             },
             {
-              image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1638834351302-1885adaca0eb?w=400&q=80",
               title: "Sleepy Bay Rocks",
               caption: "The sculpted granite at Sleepy Bay tells a story of ancient geological forces. The interplay of pink stone, turquoise water, and white foam is something a painter couldn't improve upon.",
             },
             {
-              image: "https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1598947738223-f9cde298ff14?w=400&q=80",
               title: "Freycinet Wildlife",
               caption: "As the park quiets in the evening, the wildlife comes alive. Wallabies graze on the grassy verges, pademelons bounce through the undergrowth, and the air fills with the calls of parrots heading to roost.",
             },
@@ -347,27 +347,27 @@ export const trip: Trip = {
           subtitle: "Crossing Tasmania's heartland to Cradle Mountain",
           location: { lat: -41.8, lng: 146.5 },
           heroImage:
-            "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80",
+            "https://images.unsplash.com/photo-1651954329391-85bac3e8c228?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1651954329391-85bac3e8c228?w=400&q=80",
               title: "Midlands Pastoral Country",
               caption: "Tasmania's midlands are a patchwork of golden paddocks and heritage farmsteads that look almost English. Driving through on a sunny November morning, with the mountains on the horizon, is quietly wonderful.",
             },
             {
-              image: "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1651470170693-f4b0716e207d?w=400&q=80",
               title: "Ross Bridge",
               caption: "Ross Bridge is one of Australia's most beautiful historic structures — its sandstone arches carved by convict artisans in 1836. It's a moving reminder of the extraordinary human stories woven into Tasmania's landscape.",
             },
             {
-              image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1534853878021-7fb609562749?w=400&q=80",
               title: "Approaching Cradle Mountain",
               caption: "As the road climbs into the highlands, the landscape shifts dramatically — from farmland to buttongrass plains to dense rainforest. The jagged silhouette of Cradle Mountain appearing through the trees is an electric moment.",
             },
           ],
           activities: {
             morning:
-              "Bid farewell to the east coast and begin the scenic drive west across Tasmania's midlands. The route passes through the heritage town of Campbell Town, with its convict-era brick buildings and famous bridge of carved sandstone bricks.",
+              "Today's drive through the midlands to Cradle Mountain is about 4 hours — leave by 8am. Bid farewell to the east coast and begin the scenic drive west across Tasmania's midlands. The route passes through the heritage town of Campbell Town, with its convict-era brick buildings and famous bridge of carved sandstone bricks.",
             afternoon:
               "Continue through rolling pastoral country and into increasingly wild terrain as you approach the Cradle Mountain region. Stop at the charming town of Deloraine, known for its artisan craft scene.",
             evening:
@@ -385,20 +385,20 @@ export const trip: Trip = {
           subtitle: "Dove Lake, ancient forests, and Tasmanian wildlife",
           location: { lat: -41.6369, lng: 145.9388 },
           heroImage:
-            "https://images.unsplash.com/photo-1494783367193-149034c05e8f?w=1200&q=80",
+            "https://images.unsplash.com/photo-1628652462682-a7f26698096a?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1628652462682-a7f26698096a?w=400&q=80",
               title: "Dove Lake Reflection",
               caption: "On a still morning, Dove Lake mirrors Cradle Mountain so perfectly you'd swear the image was flipped. It's the kind of scene that reminds you why people travel to the other side of the world.",
             },
             {
-              image: "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1678089022280-3e901bba02b8?w=400&q=80",
               title: "Ancient Rainforest Boardwalk",
               caption: "The boardwalks through Cradle's rainforest pass through a world of moss-draped myrtle trees and crystal-clear streams. Some of these trees were saplings when the Vikings were exploring North America.",
             },
             {
-              image: "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1605164284889-207ecaaacd26?w=400&q=80",
               title: "Wombat Encounter",
               caption: "Wombats are the gentle giants of the Australian bush — slow-moving, endearingly round, and utterly unfazed by respectful human admirers. Cradle Mountain is one of the best places on Earth to see them up close.",
             },
@@ -423,27 +423,27 @@ export const trip: Trip = {
           subtitle: "From mountain to sea — crossing Bass Strait",
           location: { lat: -41.1794, lng: 146.3628 },
           heroImage:
-            "https://images.unsplash.com/photo-1534008897995-27a23e859048?w=1200&q=80",
+            "https://images.unsplash.com/photo-1690252231330-b7f87a625bd8?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1548685890-4b1a55e7d6c7?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1734473975048-eafc5fc4cf0c?w=400&q=80",
               title: "Devonport Lighthouse",
               caption: "The red-and-white lighthouse at the mouth of the Mersey River has guided ships into Devonport for over 130 years. It makes a lovely last image of Tasmania as the ferry pulls away from shore.",
             },
             {
-              image: "https://images.unsplash.com/photo-1534008897995-27a23e859048?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1690252231330-b7f87a625bd8?w=400&q=80",
               title: "Spirit of Tasmania",
               caption: "There's something wonderfully old-fashioned and romantic about an overnight ferry crossing. The Spirit of Tasmania is comfortable and well-appointed — this is adventure travel done right.",
             },
             {
-              image: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1701736122899-6fbcf79a2963?w=400&q=80",
               title: "Bass Strait at Sea",
               caption: "Bass Strait has a legendary reputation among sailors, but on a calm November evening it can be surprisingly gentle. Watching the Tasmanian coast fade into the dusk from the deck is an unforgettable farewell.",
             },
           ],
           activities: {
             morning:
-              "Drive north from Cradle Mountain through the lush farmland and forests of Tasmania's north-west. Stop at Sheffield, the 'Town of Murals,' where dozens of large outdoor paintings depict the region's history and culture.",
+              "It's a short 1.5-hour drive to Devonport. The ferry departs in the evening, so no rush. Drive north from Cradle Mountain through the lush farmland and forests of Tasmania's north-west. Stop at Sheffield, the 'Town of Murals,' where dozens of large outdoor paintings depict the region's history and culture.",
             afternoon:
               "Arrive in Devonport and explore the foreshore before boarding the Spirit of Tasmania ferry. The ship is an experience in itself — grab a window seat and watch the Tasmanian coast recede as you head out into Bass Strait.",
             evening:
@@ -468,7 +468,7 @@ export const trip: Trip = {
       dates: "November 15–18",
       color: "#C87941",
       heroImage:
-        "https://images.unsplash.com/photo-1514395462725-fb4566210144?w=1200&q=80",
+        "https://images.unsplash.com/photo-1720522753737-f2e630fdf69c?w=1200&q=80",
       location: { lat: -37.8, lng: 147.0 },
       days: [
         {
@@ -478,20 +478,20 @@ export const trip: Trip = {
           subtitle: "Laneways, coffee, and Federation Square",
           location: { lat: -37.8136, lng: 144.9631 },
           heroImage:
-            "https://images.unsplash.com/photo-1545044846-351ba102b6d5?w=1200&q=80",
+            "https://images.unsplash.com/photo-1720522753737-f2e630fdf69c?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1514395462725-fb4566210144?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1720522753737-f2e630fdf69c?w=400&q=80",
               title: "Melbourne Laneways & Street Art",
               caption: "Melbourne's laneways are an open-air gallery unlike anything else in Australia. Around every corner there's a new mural, a hidden espresso bar, or a boutique that looks like it's from another dimension.",
             },
             {
-              image: "https://images.unsplash.com/photo-1545044846-351ba102b6d5?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1501082957694-70db7b6b62ff?w=400&q=80",
               title: "Melbourne Café Culture",
               caption: "Melbourne takes its coffee more seriously than almost anywhere on Earth — this is the city that invented the flat white. A morning espresso at a laneway café is the proper way to start any day here.",
             },
             {
-              image: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1617649666083-0c2e7af94f0d?w=400&q=80",
               title: "Federation Square",
               caption: "Federation Square is Melbourne's living room — a fractured-geometry plaza where the whole city seems to gather. From art galleries to live events to simply watching the world go by, it's always buzzing.",
             },
@@ -516,27 +516,27 @@ export const trip: Trip = {
           subtitle: "Wild koalas on a tiny island in Gippsland",
           location: { lat: -37.869, lng: 147.796 },
           heroImage:
-            "https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?w=1200&q=80",
+            "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?w=400&q=80",
               title: "Koala in the Eucalyptus",
               caption: "Looking up to find a wild koala peering down at you from a fork in the eucalyptus is one of those moments that makes the whole trip worthwhile. They're smaller than you expect, and far more charming.",
             },
             {
-              image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1522584106367-c11223702a33?w=400&q=80",
               title: "Raymond Island Ferry",
               caption: "The tiny free ferry from Paynesville to Raymond Island takes just five minutes — and comes with a wonderful sense that you're crossing into somewhere a little wild and special.",
             },
             {
-              image: "https://images.unsplash.com/photo-1533130061792-64b345e4a833?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1577535296816-fb4e0fb53aab?w=400&q=80",
               title: "Gippsland Lakes",
               caption: "The Gippsland Lakes are Australia's largest inland waterway — a vast, glittering network of lagoons and channels that stretches along the Victorian coast. The evening light on the water here is simply gorgeous.",
             },
           ],
           activities: {
             morning:
-              "Leave Melbourne and drive east into the rolling green hills of Gippsland. The landscape shifts from suburban to rural to wild as you follow the highway toward the coast.",
+              "The drive east to Paynesville and Raymond Island takes about 3.5 hours — leave Melbourne by 9am. Leave Melbourne and drive east into the rolling green hills of Gippsland. The landscape shifts from suburban to rural to wild as you follow the highway toward the coast.",
             afternoon:
               "Arrive in the lakeside town of Paynesville and catch the tiny car ferry (just 5 minutes!) to Raymond Island. Walk the Koala Trail, a gentle path through the eucalyptus woodland where wild koalas doze in the branches overhead. You'll see dozens of them — this is one of the best places in all of Australia to see koalas in the wild.",
             evening:
@@ -554,27 +554,27 @@ export const trip: Trip = {
           subtitle: "From the Gippsland Lakes into New South Wales",
           location: { lat: -37.88, lng: 147.9936 },
           heroImage:
-            "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+            "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=400&q=80",
               title: "Lakes Entrance",
               caption: "Where the Gippsland Lakes finally meet the Southern Ocean at Lakes Entrance, the view from the footbridge is spectacular — vast turquoise water in every direction, and the long white ribbon of Ninety Mile Beach beyond.",
             },
             {
-              image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1702596290877-adfc8e3e4d5c?w=400&q=80",
               title: "South Coast NSW",
               caption: "Crossing into New South Wales, the coastline grows wilder and more dramatic with every kilometre. Dense forest, hidden coves, and glimpses of a very blue Pacific ocean make for a mesmerising drive.",
             },
             {
-              image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1739528866374-573dbba6d7bd?w=400&q=80",
               title: "Coastal Scenery",
               caption: "The stretch of coast between Victoria and Batemans Bay is one of Australia's great undiscovered scenic drives. Pristine beaches, towering headlands, and almost no other tourists — it's wonderful.",
             },
           ],
           activities: {
             morning:
-              "Drive to Lakes Entrance, where the Gippsland Lakes meet the ocean. Walk along the Entrance Footbridge for sweeping views of Ninety Mile Beach, one of the longest uninterrupted beaches in the world.",
+              "Today covers about 4–5 hours of coastal driving. Leave by 8:30am. Drive to Lakes Entrance, where the Gippsland Lakes meet the ocean. Walk along the Entrance Footbridge for sweeping views of Ninety Mile Beach, one of the longest uninterrupted beaches in the world.",
             afternoon:
               "Continue driving north along the Princes Highway, crossing the state border from Victoria into New South Wales. The landscape becomes increasingly dramatic — dense forests give way to glimpses of sparkling ocean.",
             evening:
@@ -592,20 +592,20 @@ export const trip: Trip = {
           subtitle: "Pebbly Beach and onward to Kangaroo Valley",
           location: { lat: -35.615, lng: 150.29 },
           heroImage:
-            "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=1200&q=80",
+            "https://images.unsplash.com/photo-1593936665706-dda72782f4f3?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1593936665706-dda72782f4f3?w=400&q=80",
               title: "Kangaroos on Pebbly Beach",
               caption: "Waking up to find eastern grey kangaroos lounging on the sand as waves roll in behind them is one of those quintessentially Australian scenes. Here at Pebbly Beach, it happens every single morning.",
             },
             {
-              image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1702097307048-8b32b358ba72?w=400&q=80",
               title: "Murramarang Coast",
               caption: "Murramarang National Park preserves a stretch of NSW coast that feels genuinely untouched. Tall eucalyptus trees run right down to the sand, and the water is impossibly clear.",
             },
             {
-              image: "https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1629259634957-e32a0c5c4f47?w=400&q=80",
               title: "Kangaroo Up Close",
               caption: "The kangaroos at Pebbly Beach are so relaxed around people that you can sit just a few feet away and watch them graze. It's a genuinely humbling and delightful wildlife encounter.",
             },
@@ -614,7 +614,7 @@ export const trip: Trip = {
             morning:
               "Drive to Pebbly Beach in Murramarang National Park for one of Australia's most magical experiences: wild kangaroos lounging right on the sand. The eastern grey kangaroos here are so comfortable around people that they'll sit next to you on the beach as waves roll in.",
             afternoon:
-              "Continue the drive north and then inland, winding through the lush forests and rolling green hills of the NSW South Coast hinterland on your way to Kangaroo Valley.",
+              "The drive from Pebbly Beach to Kangaroo Valley is about 2.5 hours. Continue the drive north and then inland, winding through the lush forests and rolling green hills of the NSW South Coast hinterland on your way to Kangaroo Valley.",
             evening:
               "Arrive in Kangaroo Valley, a stunningly beautiful village nestled between towering sandstone escarpments. The setting is lush, peaceful, and the perfect place to prepare for the days ahead.",
           },
@@ -637,7 +637,7 @@ export const trip: Trip = {
       dates: "November 19–20",
       color: "#B8860B",
       heroImage:
-        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&q=80",
+        "https://images.unsplash.com/photo-1602459762288-391c238ba147?w=1200&q=80",
       location: { lat: -34.7369, lng: 150.5311 },
       days: [
         {
@@ -647,20 +647,20 @@ export const trip: Trip = {
           subtitle: "Waterfalls, village charm, and calm before the celebration",
           location: { lat: -34.7369, lng: 150.5311 },
           heroImage:
-            "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80",
+            "https://images.unsplash.com/photo-1602459762288-391c238ba147?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1602459762288-391c238ba147?w=400&q=80",
               title: "Kangaroo Valley Landscape",
               caption: "Kangaroo Valley is the kind of place that makes you understand why people fall in love with the Australian countryside. Green rolling hills, towering sandstone escarpments, and a quiet that goes all the way down.",
             },
             {
-              image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1602459757273-3c07a5a9c024?w=400&q=80",
               title: "Fitzroy Falls",
               caption: "Fitzroy Falls plunges 81 metres into the rainforest below — taller than Niagara Falls. Standing on the rim trail with the mist rising and the forest stretching to the horizon, it's breathtaking.",
             },
             {
-              image: "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1604690504594-b0580ad5ff5b?w=400&q=80",
               title: "Hampden Bridge",
               caption: "The historic Hampden Bridge, one of the last wooden suspension bridges in Australia, has spanned the Kangaroo River since 1898. Crossing it feels like stepping back into a gentler, unhurried era.",
             },
@@ -685,20 +685,20 @@ export const trip: Trip = {
           subtitle: "A day of love, joy, and celebration",
           location: { lat: -34.7369, lng: 150.5311 },
           heroImage:
-            "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80",
+            "https://images.unsplash.com/photo-1773020934003-4294b49ea11e?w=1200&q=80",
           highlights: [
             {
-              image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1725589982773-23a1bd3765b8?w=400&q=80",
               title: "Wedding Venue Countryside",
               caption: "The lush Kangaroo Valley countryside provides a setting so beautiful it almost seems designed for a wedding. Green hills, golden light, and the peaceful hum of a perfect spring day.",
             },
             {
-              image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1773020934003-4294b49ea11e?w=400&q=80",
               title: "The Celebration",
               caption: "After 17 days of extraordinary adventure, this is the moment that brought you here — watching someone you love step into one of life's greatest joys. Everything else was the beautiful prologue.",
             },
             {
-              image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&q=80",
+              image: "https://images.unsplash.com/photo-1725589972027-1dc9d35fee30?w=400&q=80",
               title: "Valley Sunset",
               caption: "As the evening celebration winds down and the sun sets over the valley escarpments, the sky turns gold and rose. It is, by any measure, a perfect end to a perfect journey.",
             },
