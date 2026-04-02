@@ -1,0 +1,141 @@
+<h2>Homepage Layout Options</h2>
+<p class="subtitle">How should the Swisher family first experience their itinerary? Pick the layout that feels right.</p>
+
+<div class="cards">
+  <!-- Option A: Full-screen chapter scroll -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding: 20px; border-radius: 8px; color: white; font-family: Georgia, serif;">
+        <div style="text-align: center; padding: 30px 0;">
+          <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; opacity: 0.7; margin-bottom: 8px;">The Swisher Family</div>
+          <div style="font-size: 28px; font-weight: bold; margin-bottom: 4px;">An Australian</div>
+          <div style="font-size: 28px; font-weight: bold; margin-bottom: 16px;">Adventure</div>
+          <div style="font-size: 11px; opacity: 0.5;">November 2026</div>
+        </div>
+        <div style="display: flex; gap: 8px; margin-top: 10px;">
+          <div style="flex: 1; background: rgba(255,255,255,0.1); border-radius: 6px; padding: 12px; text-align: center;">
+            <div style="font-size: 10px; opacity: 0.6;">Chapter 1</div>
+            <div style="font-size: 13px; margin-top: 4px;">Sydney</div>
+            <div style="font-size: 9px; opacity: 0.5; margin-top: 2px;">Nov 4-7</div>
+          </div>
+          <div style="flex: 1; background: rgba(255,255,255,0.1); border-radius: 6px; padding: 12px; text-align: center;">
+            <div style="font-size: 10px; opacity: 0.6;">Chapter 2</div>
+            <div style="font-size: 13px; margin-top: 4px;">Tasmania</div>
+            <div style="font-size: 9px; opacity: 0.5; margin-top: 2px;">Nov 8-14</div>
+          </div>
+          <div style="flex: 1; background: rgba(255,255,255,0.1); border-radius: 6px; padding: 12px; text-align: center;">
+            <div style="font-size: 10px; opacity: 0.6;">Chapter 3</div>
+            <div style="font-size: 13px; margin-top: 4px;">Road Trip</div>
+            <div style="font-size: 9px; opacity: 0.5; margin-top: 2px;">Nov 15-18</div>
+          </div>
+          <div style="flex: 1; background: rgba(255,255,255,0.15); border-radius: 6px; padding: 12px; text-align: center; border: 1px solid rgba(255,255,255,0.2);">
+            <div style="font-size: 10px; opacity: 0.6;">Chapter 4</div>
+            <div style="font-size: 13px; margin-top: 4px;">The Wedding</div>
+            <div style="font-size: 9px; opacity: 0.5; margin-top: 2px;">Nov 19-20</div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 16px; font-size: 10px; opacity: 0.4;">Scroll down to begin your journey &darr;</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. Full-Page Chapter Scroll</h3>
+      <p>Cinematic full-screen hero with the trip title, then scroll through chapters like a magazine story. Each chapter is a full-screen section with a big background photo. Map and table are accessible via a sticky nav.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Map-first with chapters sidebar -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background: #f5f0eb; padding: 20px; border-radius: 8px; font-family: Georgia, serif; color: #2c2c2c;">
+        <div style="display: flex; gap: 12px;">
+          <div style="flex: 1.5; background: #ddd; border-radius: 6px; padding: 20px; position: relative; min-height: 160px;">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+              <div style="font-size: 40px; opacity: 0.3;">&#x1f5fa;</div>
+              <div style="font-size: 10px; color: #888;">Interactive Map of Australia</div>
+              <div style="font-size: 9px; color: #aaa; margin-top: 4px;">Route drawn across the map</div>
+            </div>
+            <div style="position: absolute; top: 30px; left: 40px; width: 8px; height: 8px; background: #e74c3c; border-radius: 50%;"></div>
+            <div style="position: absolute; top: 80px; left: 30px; width: 8px; height: 8px; background: #3498db; border-radius: 50%;"></div>
+            <div style="position: absolute; top: 120px; left: 50px; width: 8px; height: 8px; background: #2ecc71; border-radius: 50%;"></div>
+          </div>
+          <div style="flex: 1; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 4px;">Your Journey</div>
+            <div style="background: white; border-radius: 6px; padding: 10px; border-left: 3px solid #e74c3c;">
+              <div style="font-size: 11px; font-weight: bold;">Sydney</div>
+              <div style="font-size: 9px; color: #888;">Nov 4-7 &middot; 4 days</div>
+            </div>
+            <div style="background: white; border-radius: 6px; padding: 10px; border-left: 3px solid #3498db;">
+              <div style="font-size: 11px; font-weight: bold;">Tasmania</div>
+              <div style="font-size: 9px; color: #888;">Nov 8-14 &middot; 7 days</div>
+            </div>
+            <div style="background: white; border-radius: 6px; padding: 10px; border-left: 3px solid #2ecc71;">
+              <div style="font-size: 11px; font-weight: bold;">Coastal Drive</div>
+              <div style="font-size: 9px; color: #888;">Nov 15-18 &middot; 4 days</div>
+            </div>
+            <div style="background: white; border-radius: 6px; padding: 10px; border-left: 3px solid #f39c12;">
+              <div style="font-size: 11px; font-weight: bold;">The Wedding</div>
+              <div style="font-size: 9px; color: #888;">Nov 19-20 &middot; 2 days</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. Map-First Dashboard</h3>
+      <p>Opens with the interactive map front and center, with chapters listed as a sidebar. Click a chapter to zoom into that region and see the day-by-day. More practical, less cinematic. Great for navigation.</p>
+    </div>
+  </div>
+
+  <!-- Option C: Hybrid storytelling -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background: linear-gradient(180deg, #2c1810 0%, #4a2c1a 100%); padding: 20px; border-radius: 8px; color: white; font-family: Georgia, serif;">
+        <div style="text-align: center; padding: 10px 0;">
+          <div style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; opacity: 0.6;">November 2026</div>
+          <div style="font-size: 22px; font-weight: bold; margin: 6px 0;">The Swishers Go Down Under</div>
+        </div>
+        <div style="background: rgba(255,255,255,0.08); border-radius: 8px; padding: 12px; margin-top: 8px;">
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+            <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.15); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 24px;">&#x1f3d6;</div>
+            <div style="flex: 1;">
+              <div style="font-size: 13px; font-weight: bold;">Chapter 1: Sydney</div>
+              <div style="font-size: 10px; opacity: 0.7;">Harbour views, Bondi walks & city vibes</div>
+            </div>
+            <div style="font-size: 10px; opacity: 0.5;">Nov 4-7 &rarr;</div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+            <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.15); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 24px;">&#x1f332;</div>
+            <div style="flex: 1;">
+              <div style="font-size: 13px; font-weight: bold;">Chapter 2: Tasmania</div>
+              <div style="font-size: 10px; opacity: 0.7;">Wilderness, wine & wild coastlines</div>
+            </div>
+            <div style="font-size: 10px; opacity: 0.5;">Nov 8-14 &rarr;</div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+            <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.15); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 24px;">&#x1f697;</div>
+            <div style="flex: 1;">
+              <div style="font-size: 13px; font-weight: bold;">Chapter 3: The Coastal Drive</div>
+              <div style="font-size: 10px; opacity: 0.7;">Melbourne to Kangaroo Valley via the coast</div>
+            </div>
+            <div style="font-size: 10px; opacity: 0.5;">Nov 15-18 &rarr;</div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 24px;">&#x1f492;</div>
+            <div style="flex: 1;">
+              <div style="font-size: 13px; font-weight: bold;">Chapter 4: The Wedding</div>
+              <div style="font-size: 10px; opacity: 0.7;">Kangaroo Valley celebration</div>
+            </div>
+            <div style="font-size: 10px; opacity: 0.5;">Nov 19-20 &rarr;</div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 12px;">
+          <div style="display: inline-block; background: rgba(255,255,255,0.15); padding: 6px 16px; border-radius: 20px; font-size: 10px; letter-spacing: 1px;">VIEW MAP &middot; TABLE VIEW</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. Editorial Story Hub</h3>
+      <p>A warm, magazine-style landing page with a hero title and chapter cards below. Each chapter card has a teaser photo and subtitle. Map and table views accessible from a toggle. Click a chapter to dive into the day-by-day. Best of both worlds.</p>
+    </div>
+  </div>
+</div>
