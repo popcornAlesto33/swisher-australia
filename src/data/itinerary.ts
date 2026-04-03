@@ -492,7 +492,7 @@ export const trip: Trip = {
       dates: "November 15–18",
       color: "#C87941",
       heroImage:
-        "https://images.unsplash.com/photo-1720522753737-f2e630fdf69c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1629259634957-e32a0c5c4f47?w=1200&q=80",
       location: { lat: -36.5, lng: 148.5 },
       days: [
         {
