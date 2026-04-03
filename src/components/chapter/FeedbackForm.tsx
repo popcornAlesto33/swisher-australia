@@ -104,13 +104,13 @@ export default function FeedbackForm({ dayNumber, chapterColor }: FeedbackFormPr
 
       {/* Form */}
       <form onSubmit={handleSubmit} className="space-y-3">
-        <div className="flex gap-3">
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
           <input
             type="text"
             placeholder="Your name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="flex-shrink-0 w-32 px-3 py-2 text-sm rounded-lg border border-charcoal/15 bg-white
+            className="w-full sm:w-32 sm:flex-shrink-0 px-3 py-2.5 text-sm rounded-lg border border-charcoal/15 bg-white
                        text-charcoal placeholder:text-charcoal/30 focus:outline-none focus:ring-2 focus:ring-offset-1"
             style={{ "--tw-ring-color": chapterColor } as React.CSSProperties}
             required
@@ -120,7 +120,7 @@ export default function FeedbackForm({ dayNumber, chapterColor }: FeedbackFormPr
             placeholder="Leave a comment or suggestion..."
             value={comment}
             onChange={(e) => setComment(e.target.value)}
-            className="flex-1 px-3 py-2 text-sm rounded-lg border border-charcoal/15 bg-white
+            className="flex-1 px-3 py-2.5 text-sm rounded-lg border border-charcoal/15 bg-white
                        text-charcoal placeholder:text-charcoal/30 focus:outline-none focus:ring-2 focus:ring-offset-1"
             style={{ "--tw-ring-color": chapterColor } as React.CSSProperties}
             required

@@ -48,7 +48,7 @@ export default function ChapterMiniMap({ chapter }: ChapterMiniMapProps) {
   });
 
   return (
-    <div className="rounded-xl overflow-hidden shadow-md" style={{ height: "300px" }}>
+    <div className="rounded-xl overflow-hidden shadow-md h-[200px] sm:h-[300px]">
       <MapContainer
         center={center}
         zoom={zoom}

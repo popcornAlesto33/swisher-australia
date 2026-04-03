@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#0d1b2a]/80 via-[#1a2e3b]/70 to-[#0d1b2a]/85" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 max-w-4xl mx-auto">
         {/* Small caps subtitle */}
         <p
           className="text-sm tracking-[0.25em] uppercase text-[#C8B99A] mb-6 font-body"

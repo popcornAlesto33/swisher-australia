@@ -14,7 +14,7 @@ export default function HighlightGallery({ highlights, chapterColor }: Highlight
   return (
     <>
       {/* Thumbnail row */}
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
         {highlights.map((h, i) => (
           <button
             key={i}
@@ -57,7 +57,7 @@ export default function HighlightGallery({ highlights, chapterColor }: Highlight
 
           {/* Content */}
           <div
-            className="relative max-w-3xl w-full bg-white rounded-2xl overflow-hidden shadow-2xl"
+            className="relative max-w-3xl w-full bg-white rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Image */}

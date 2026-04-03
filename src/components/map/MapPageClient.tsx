@@ -7,7 +7,7 @@ const TripMap = dynamic(() => import("@/components/map/TripMap"), {
   ssr: false,
   loading: () => (
     <div
-      style={{ height: "calc(100vh - 4rem)" }}
+      style={{ height: "calc(100dvh - 4rem)" }}
       className="flex items-center justify-center bg-cream"
     >
       <p className="text-charcoal/50 font-heading text-lg">Loading map...</p>

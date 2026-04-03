@@ -43,7 +43,7 @@ export default function TripMap({ trip }: TripMapProps) {
       center={[-28, 140]}
       zoom={4}
       scrollWheelZoom={false}
-      style={{ height: "calc(100vh - 4rem)", width: "100%" }}
+      style={{ height: "calc(100dvh - 4rem)", width: "100%" }}
     >
       <TileLayer
         url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
@@ -100,7 +100,7 @@ export default function TripMap({ trip }: TripMapProps) {
             icon={createMarkerIcon(chapter.color)}
           >
             <Popup>
-              <div style={{ minWidth: "160px" }}>
+              <div style={{ minWidth: "140px", maxWidth: "90vw" }}>
                 <p style={{ fontWeight: "bold", marginBottom: "2px" }}>
                   Day {day.dayNumber} &mdash; {day.date}
                 </p>
@@ -130,7 +130,7 @@ export default function TripMap({ trip }: TripMapProps) {
               icon={createMarkerIcon(chapter.color, 9)}
             >
               <Popup>
-                <div style={{ minWidth: "120px" }}>
+                <div style={{ minWidth: "100px", maxWidth: "90vw" }}>
                   <p style={{ fontWeight: "bold", marginBottom: "2px" }}>
                     {stop.name}
                   </p>

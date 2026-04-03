@@ -15,7 +15,7 @@ export default function ChapterCard({ chapter }: ChapterCardProps) {
     >
       <div className="flex flex-col sm:flex-row">
         {/* Image section */}
-        <div className="relative sm:w-2/5 aspect-[16/9] sm:aspect-auto sm:min-h-[220px]">
+        <div className="relative sm:w-2/5 aspect-[4/3] sm:aspect-auto sm:min-h-[220px]">
           <img
             src={chapter.heroImage}
             alt={`${chapter.title} — ${chapter.subtitle}`}
