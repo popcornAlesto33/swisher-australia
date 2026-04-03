@@ -628,14 +628,11 @@ export const trip: Trip = {
           date: "2026-11-18",
           dayNumber: 15,
           title: "Kangaroos on the Beach",
-          subtitle: "Pebbly Beach and onward to Kangaroo Valley",
-          location: { lat: -34.7369, lng: 150.5311 },
-          stops: [
-            { name: "Pebbly Beach", location: { lat: -35.615, lng: 150.29 } },
-          ],
+          subtitle: "Pebbly Beach and a relaxing evening on the NSW South Coast",
+          location: { lat: -35.615, lng: 150.29 },
           heroImage:
             "https://images.unsplash.com/photo-1593936665706-dda72782f4f3?w=1200&q=80",
-          accommodation: "Accommodation in Kangaroo Valley",
+          accommodation: "Accommodation near Batemans Bay / NSW South Coast",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1593936665706-dda72782f4f3?w=400&q=80",
@@ -655,11 +652,11 @@ export const trip: Trip = {
           ],
           activities: {
             morning:
-              "Drive to Pebbly Beach in Murramarang National Park for one of Australia's most magical experiences: wild kangaroos lounging right on the sand. The eastern grey kangaroos here are so comfortable around people that they'll sit next to you on the beach as waves roll in.",
+              "Head to Pebbly Beach in Murramarang National Park for one of Australia's most magical experiences: wild kangaroos lounging right on the sand. The eastern grey kangaroos here are so comfortable around people that they'll sit next to you on the beach as waves roll in. Take your time — this is a once-in-a-lifetime encounter.",
             afternoon:
-              "The drive from Pebbly Beach to Kangaroo Valley is about 2.5 hours. Continue the drive north and then inland, winding through the lush forests and rolling green hills of the NSW South Coast hinterland on your way to Kangaroo Valley.",
+              "Explore more of the Murramarang coastline. The beaches here are pristine and uncrowded — perfect for a leisurely walk along the shore with the eucalyptus forest right behind you. Head back to the Batemans Bay area to relax.",
             evening:
-              "Arrive in Kangaroo Valley, a stunningly beautiful village nestled between towering sandstone escarpments. The setting is lush, peaceful, and the perfect place to prepare for the days ahead.",
+              "A well-earned rest day on the coast. Enjoy a seafood dinner in Batemans Bay and an early night — tomorrow you'll drive inland to Kangaroo Valley for the wedding celebrations.",
           },
           funFacts: [
             "Pebbly Beach kangaroos are so used to humans they'll sit right next to you on the sand — it's one of Australia's most photographed wildlife encounters.",
@@ -687,11 +684,15 @@ export const trip: Trip = {
           date: "2026-11-19",
           dayNumber: 16,
           title: "Kangaroo Valley",
-          subtitle: "Waterfalls, village charm, and calm before the celebration",
+          subtitle: "Jervis Bay's white sand, Berry village, and calm before the celebration",
           location: { lat: -34.7369, lng: 150.5311 },
           heroImage:
             "https://images.unsplash.com/photo-1602459762288-391c238ba147?w=1200&q=80",
           accommodation: "Accommodation in Kangaroo Valley",
+          stops: [
+            { name: "Huskisson / Jervis Bay", location: { lat: -35.0388, lng: 150.6720 } },
+            { name: "Berry", location: { lat: -34.7750, lng: 150.6994 } },
+          ],
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1602459762288-391c238ba147?w=400&q=80",
@@ -711,11 +712,11 @@ export const trip: Trip = {
           ],
           activities: {
             morning:
-              "Explore the village of Kangaroo Valley at a leisurely pace. Browse the local shops, visit the historic Hampden Bridge (one of the last surviving wooden suspension bridges in Australia), and enjoy a flat white at a local café.",
+              "Leave Batemans Bay by 9am for the 3-hour drive south to Kangaroo Valley with two gorgeous stops. First, detour east to Huskisson and Jervis Bay — walk along Hyams Beach, which holds the Guinness World Record for the whitest sand on Earth. The turquoise water and blinding white sand are absolutely jaw-dropping. Grab a coffee in the laid-back coastal town of Huskisson.",
             afternoon:
-              "Drive to Fitzroy Falls, a spectacular waterfall that plunges 81 metres into the valley below. Walk along the rim trail for multiple viewpoints and enjoy the rainforest atmosphere of Morton National Park.",
+              "Continue 30 minutes south to Berry, one of the prettiest villages in NSW. Stop at the legendary Berry Donut Van (a local institution since the 1940s) and stroll the main street lined with antique shops and cafés. From Berry, it's just 20 minutes inland through winding green hills to Kangaroo Valley. Visit Fitzroy Falls, a spectacular waterfall that plunges 81 metres into the rainforest below.",
             evening:
-              "A relaxed evening to rest and reflect on the incredible journey so far. Tomorrow is the reason you travelled halfway around the world.",
+              "Settle in to Kangaroo Valley and walk across the historic Hampden Bridge. A relaxed evening to rest and reflect on the incredible journey so far. Tomorrow is the reason you travelled halfway around the world.",
           },
           funFacts: [
             "Fitzroy Falls drops 81 metres — taller than Niagara Falls, which drops 51 metres on the American side.",
