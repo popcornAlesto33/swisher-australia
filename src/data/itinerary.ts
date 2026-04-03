@@ -549,11 +549,11 @@ export const trip: Trip = {
           ],
           activities: {
             morning:
-              "The drive east to Paynesville and Raymond Island takes about 3.5 hours — leave Melbourne by 9am. Leave Melbourne and drive east into the rolling green hills of Gippsland. The landscape shifts from suburban to rural to wild as you follow the highway toward the coast.",
+              "Leave Melbourne by 9am and head east along the Princes Highway into Gippsland. After about 1.5 hours, pull into the charming village of Yarragon — stop at the famous Yarragon Chocolate Shop for handmade truffles and a coffee on the main street. It's a gorgeous little town with artisan galleries and antique stores worth a quick browse.",
             afternoon:
-              "Arrive in the lakeside town of Paynesville and catch the tiny car ferry (just 5 minutes!) to Raymond Island. Walk the Koala Trail, a gentle path through the eucalyptus woodland where wild koalas doze in the branches overhead. You'll see dozens of them — this is one of the best places in all of Australia to see koalas in the wild.",
+              "Continue east through Sale and Bairnsdale (about 2 more hours of easy driving). Arrive in the lakeside town of Paynesville and catch the tiny car ferry (just 5 minutes!) across to Raymond Island. Walk the Koala Trail, a gentle path through eucalyptus woodland where wild koalas doze in the branches overhead. You'll see dozens of them — this is one of the best places in all of Australia to see koalas in the wild.",
             evening:
-              "Return to Paynesville and enjoy dinner overlooking the Gippsland Lakes, one of Australia's largest inland waterway systems.",
+              "Return to Paynesville and enjoy dinner overlooking the Gippsland Lakes, one of Australia's largest inland waterway systems. Total driving today: about 3.5 hours with the Yarragon stop.",
           },
           funFacts: [
             "Raymond Island has one of the highest koala densities in Australia — the koalas were introduced to the island in 1953 and thrived in the abundant eucalyptus.",
@@ -563,8 +563,8 @@ export const trip: Trip = {
         {
           date: "2026-11-17",
           dayNumber: 14,
-          title: "Lakes & Coast",
-          subtitle: "From the Gippsland Lakes into New South Wales",
+          title: "The South Coast Road Trip",
+          subtitle: "Lakes Entrance, Eden, Merimbula, Bega Cheese & Narooma",
           location: { lat: -37.88, lng: 147.9936 },
           heroImage:
             "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=1200&q=80",
@@ -572,31 +572,31 @@ export const trip: Trip = {
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=400&q=80",
-              title: "Lakes Entrance",
-              caption: "Where the Gippsland Lakes finally meet the Southern Ocean at Lakes Entrance, the view from the footbridge is spectacular — vast turquoise water in every direction, and the long white ribbon of Ninety Mile Beach beyond.",
+              title: "Eden & Twofold Bay",
+              caption: "The historic fishing town of Eden sits on one of the deepest natural harbours in the Southern Hemisphere. Its Killer Whale Museum tells one of Australia's most extraordinary true stories.",
             },
             {
               image: "https://images.unsplash.com/photo-1702596290877-adfc8e3e4d5c?w=400&q=80",
-              title: "South Coast NSW",
-              caption: "Crossing into New South Wales, the coastline grows wilder and more dramatic with every kilometre. Dense forest, hidden coves, and glimpses of a very blue Pacific ocean make for a mesmerising drive.",
+              title: "Merimbula Bay",
+              caption: "Merimbula's turquoise bay is a stunning surprise along the Sapphire Coast. Stop for fresh oysters at the wharf and take in the views — this is one of NSW's most beautiful coastal towns.",
             },
             {
               image: "https://images.unsplash.com/photo-1739528866374-573dbba6d7bd?w=400&q=80",
-              title: "Coastal Scenery",
-              caption: "The stretch of coast between Victoria and Batemans Bay is one of Australia's great undiscovered scenic drives. Pristine beaches, towering headlands, and almost no other tourists — it's wonderful.",
+              title: "Bega Cheese Heritage Centre",
+              caption: "Yes, this is where the famous Bega cheese comes from! The Heritage Centre offers tastings of their full range — from sharp vintage cheddar to creamy brie — all made right here in this charming country town.",
             },
           ],
           activities: {
             morning:
-              "Today covers about 4–5 hours of coastal driving. Leave by 8:30am. Drive to Lakes Entrance, where the Gippsland Lakes meet the ocean. Walk along the Entrance Footbridge for sweeping views of Ninety Mile Beach, one of the longest uninterrupted beaches in the world.",
+              "Leave by 8am — today is a proper Aussie road trip with great stops along the way. Start with a stroll along the Lakes Entrance footbridge for sweeping views of Ninety Mile Beach. Then drive south through Orbost and the dense forests along the Princes Highway (about 3 hours) to reach the historic fishing town of Eden on Twofold Bay. Visit the Eden Killer Whale Museum — it tells the remarkable true story of orcas that once helped local whalers hunt.",
             afternoon:
-              "Continue driving north along the Princes Highway, crossing the state border from Victoria into New South Wales. The landscape becomes increasingly dramatic — dense forests give way to glimpses of sparkling ocean.",
+              "From Eden, it's just 25 minutes north to Merimbula — a stunning coastal bay town. Grab fresh oysters at the Merimbula Wharf or walk along the lakeside boardwalk. Then continue 30 minutes to Bega and stop at the Bega Cheese Heritage Centre for cheese tastings (yes, this is where the famous Bega cheese comes from!). From Bega, drive about an hour to the beautiful inlet town of Narooma — if time allows, stop to spot the fur seals on the breakwall.",
             evening:
-              "Arrive in the Batemans Bay area on the NSW South Coast. Settle in for the night and prepare for one of the most unique wildlife encounters of the entire trip.",
+              "Continue 1.5 hours north to the Batemans Bay area. Settle in for the night and prepare for one of the most unique wildlife encounters of the entire trip. Total driving today: about 6 hours with stops, but the towns along the way make it feel like an adventure rather than a long drive.",
           },
           funFacts: [
-            "Ninety Mile Beach is actually 151 kilometres long — but who's counting when you're walking on a seemingly endless stretch of pristine sand?",
-            "Australia drives on the left side of the road, a legacy of British colonisation — so keep that in mind from the passenger seat!",
+            "Eden was once the whaling capital of Australia. Remarkably, a pod of orcas used to herd baleen whales into Twofold Bay and alert the whalers — a unique partnership that lasted for decades.",
+            "Bega Cheese has been made in the town of Bega since 1899. The Heritage Centre lets you taste everything from sharp vintage cheddar to creamy brie — all made right here.",
           ],
         },
         {
