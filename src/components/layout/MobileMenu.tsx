@@ -35,7 +35,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: "100%", opacity: 0 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
-          className="fixed inset-0 z-40 bg-[#F9F6F2] flex flex-col"
+          className="fixed inset-0 z-[60] bg-[#F9F6F2] flex flex-col"
         >
           {/* Close button */}
           <div className="flex justify-end p-4">

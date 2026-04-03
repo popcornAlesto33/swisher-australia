@@ -94,15 +94,15 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Mobile hamburger */}
+          {/* Mobile hamburger / close toggle */}
           <button
-            className="md:hidden w-11 h-11 flex flex-col items-center justify-center gap-1.5 text-[#2C2C2C]"
-            onClick={() => setMenuOpen(true)}
-            aria-label="Open menu"
+            className="md:hidden relative z-[70] w-11 h-11 flex flex-col items-center justify-center gap-1.5 text-[#2C2C2C]"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
           >
-            <span className="block w-6 h-0.5 bg-current" />
-            <span className="block w-6 h-0.5 bg-current" />
-            <span className="block w-6 h-0.5 bg-current" />
+            <span className={`block w-6 h-0.5 bg-current transition-transform duration-300 ${menuOpen ? "translate-y-2 rotate-45" : ""}`} />
+            <span className={`block w-6 h-0.5 bg-current transition-opacity duration-300 ${menuOpen ? "opacity-0" : ""}`} />
+            <span className={`block w-6 h-0.5 bg-current transition-transform duration-300 ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`} />
           </button>
         </div>
       </header>
