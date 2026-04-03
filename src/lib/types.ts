@@ -30,8 +30,14 @@ export interface Day {
     evening?: string;
   };
   accommodation?: string;
+  stops?: Stop[];
   funFacts?: string[];
   highlights?: Highlight[];
+}
+
+export interface Stop {
+  name: string;
+  location: { lat: number; lng: number };
 }
 
 export interface Highlight {

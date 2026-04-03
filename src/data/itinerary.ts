@@ -480,7 +480,7 @@ export const trip: Trip = {
       color: "#C87941",
       heroImage:
         "https://images.unsplash.com/photo-1720522753737-f2e630fdf69c?w=1200&q=80",
-      location: { lat: -37.8, lng: 147.0 },
+      location: { lat: -36.5, lng: 148.5 },
       days: [
         {
           date: "2026-11-15",
@@ -530,6 +530,11 @@ export const trip: Trip = {
           heroImage:
             "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?w=1200&q=80",
           accommodation: "Accommodation near Paynesville / Raymond Island",
+          stops: [
+            { name: "Yarragon", location: { lat: -38.2048, lng: 145.9713 } },
+            { name: "Sale", location: { lat: -38.1000, lng: 147.0680 } },
+            { name: "Bairnsdale", location: { lat: -37.8230, lng: 147.6100 } },
+          ],
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?w=400&q=80",
@@ -565,10 +570,17 @@ export const trip: Trip = {
           dayNumber: 14,
           title: "The South Coast Road Trip",
           subtitle: "Lakes Entrance, Eden, Merimbula, Bega Cheese & Narooma",
-          location: { lat: -37.88, lng: 147.9936 },
+          location: { lat: -35.7575, lng: 150.1953 },
           heroImage:
             "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=1200&q=80",
           accommodation: "Accommodation near Batemans Bay / NSW South Coast",
+          stops: [
+            { name: "Lakes Entrance", location: { lat: -37.8800, lng: 147.9936 } },
+            { name: "Eden", location: { lat: -37.0667, lng: 149.9000 } },
+            { name: "Merimbula", location: { lat: -36.8894, lng: 149.9078 } },
+            { name: "Bega", location: { lat: -36.6738, lng: 149.8425 } },
+            { name: "Narooma", location: { lat: -36.2167, lng: 150.0700 } },
+          ],
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=400&q=80",
