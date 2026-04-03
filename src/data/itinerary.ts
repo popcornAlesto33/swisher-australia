@@ -279,6 +279,10 @@ export const trip: Trip = {
           heroImage:
             "https://images.unsplash.com/photo-1672313669835-d2a9a2d53c82?w=1200&q=80",
           accommodation: "Accommodation near Freycinet / Coles Bay",
+          stops: [
+            { name: "Orford", location: { lat: -42.5575, lng: 147.8580 } },
+            { name: "Swansea", location: { lat: -42.1189, lng: 148.0751 } },
+          ],
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1672313669835-d2a9a2d53c82?w=400&q=80",
@@ -298,14 +302,14 @@ export const trip: Trip = {
           ],
           activities: {
             morning:
-              "The drive from Hobart takes about 2.5 hours, so aim to leave by 8am. Drive north along the stunning east coast to Freycinet National Park. The journey itself is beautiful, passing through rolling farmland, coastal towns, and forests of eucalyptus.",
+              "Leave Hobart by 8am for the 2.5-hour drive up the east coast. Stop in the seaside village of Orford for a coffee overlooking the water. Continue north to Swansea, a charming heritage town on Great Oyster Bay — stop at Kate's Berry Farm for their famous berry ice cream with views across to the Freycinet Peninsula. Just past Swansea, pull into the Freycinet Marine Farm for the freshest oysters you'll ever taste, shucked right at the waterfront.",
             afternoon:
-              "Hike to the Wineglass Bay Lookout — a moderate walk rewarded by one of the most photographed views in Australia. The bay curves in a perfect crescent of white sand, backed by the pink-granite peaks of the Hazards mountain range.",
+              "Arrive at Freycinet National Park and hike to the Wineglass Bay Lookout — a moderate walk rewarded by one of the most photographed views in Australia. The bay curves in a perfect crescent of white sand, backed by the pink-granite peaks of the Hazards mountain range.",
             evening:
               "Settle into your Freycinet accommodation and enjoy a quiet evening with the sounds of the bush. Keep an eye out for wallabies and possums as the sun goes down.",
           },
           funFacts: [
-            "Wineglass Bay is consistently rated one of the world's top 10 beaches by travel publications.",
+            "Tasmania's east coast oysters are considered some of the finest in the world — the cold, pristine waters produce an exceptionally clean, briny flavour.",
             "The Hazards — the pink granite mountains framing Wineglass Bay — get their colour from feldspar crystals formed over 400 million years ago.",
           ],
         },
@@ -353,10 +357,15 @@ export const trip: Trip = {
           dayNumber: 9,
           title: "Into the Highlands",
           subtitle: "Crossing Tasmania's heartland to Cradle Mountain",
-          location: { lat: -41.8, lng: 146.5 },
+          location: { lat: -41.6369, lng: 145.9388 },
           heroImage:
             "https://images.unsplash.com/photo-1651954329391-85bac3e8c228?w=1200&q=80",
           accommodation: "Cradle Mountain lodge or cabin",
+          stops: [
+            { name: "Campbell Town", location: { lat: -41.9300, lng: 147.4900 } },
+            { name: "Ross", location: { lat: -42.0350, lng: 147.4900 } },
+            { name: "Deloraine", location: { lat: -41.5231, lng: 146.6561 } },
+          ],
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1651954329391-85bac3e8c228?w=400&q=80",
@@ -376,9 +385,9 @@ export const trip: Trip = {
           ],
           activities: {
             morning:
-              "Today's drive through the midlands to Cradle Mountain is about 4 hours — leave by 8am. Bid farewell to the east coast and begin the scenic drive west across Tasmania's midlands. The route passes through the heritage town of Campbell Town, with its convict-era brick buildings and famous bridge of carved sandstone bricks.",
+              "Today's drive to Cradle Mountain is about 4 hours with stops — leave by 8am. Head west through the midlands, stopping first at Campbell Town to see the Red Bridge, the oldest brick bridge in Australia (1838). Continue to the heritage village of Ross — the Ross Village Bakery is a must-stop (it's said to have inspired the bakery in Miyazaki's Kiki's Delivery Service!). Walk across the famous Ross Bridge, its sandstone arches carved by convict artisans in 1836 with 186 intricate panels.",
             afternoon:
-              "Continue through rolling pastoral country and into increasingly wild terrain as you approach the Cradle Mountain region. Stop at the charming town of Deloraine, known for its artisan craft scene.",
+              "Drive on through golden pastoral country to the charming arts town of Deloraine, nestled beneath the dramatic Great Western Tiers. Stop for lunch at one of the excellent cafés on the main street — the Deloraine Deli is a local favourite. From Deloraine, it's about 1.5 hours of increasingly dramatic scenery as you climb into the highlands toward Cradle Mountain.",
             evening:
               "Arrive at your Cradle Mountain accommodation. The mountain air is cool and crisp — a warm fire and a hearty meal are the perfect way to end the drive.",
           },
@@ -435,6 +444,10 @@ export const trip: Trip = {
           heroImage:
             "https://images.unsplash.com/photo-1690252231330-b7f87a625bd8?w=1200&q=80",
           accommodation: "Overnight on Spirit of Tasmania ferry",
+          stops: [
+            { name: "Sheffield", location: { lat: -41.3986, lng: 146.3361 } },
+            { name: "Latrobe", location: { lat: -41.2328, lng: 146.4133 } },
+          ],
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1734473975048-eafc5fc4cf0c?w=400&q=80",
@@ -454,15 +467,15 @@ export const trip: Trip = {
           ],
           activities: {
             morning:
-              "It's a short 1.5-hour drive to Devonport. The ferry departs in the evening, so no rush. Drive north from Cradle Mountain through the lush farmland and forests of Tasmania's north-west. Stop at Sheffield, the 'Town of Murals,' where dozens of large outdoor paintings depict the region's history and culture.",
+              "No rush today — the ferry departs in the evening. Drive 45 minutes north to Sheffield, the 'Town of Murals,' where over 60 large outdoor paintings cover the buildings depicting local history, wildlife, and Tasmanian stories. Wander the main street and grab a coffee. Continue 30 minutes to the delightful town of Latrobe — known as the Platypus Capital of the World. Walk along the Mersey River where platypus are regularly spotted, and visit the quirky Australian Axeman's Hall of Fame.",
             afternoon:
-              "Arrive in Devonport and explore the foreshore before boarding the Spirit of Tasmania ferry. The ship is an experience in itself — grab a window seat and watch the Tasmanian coast recede as you head out into Bass Strait.",
+              "Drive the final 15 minutes to Devonport. Explore the foreshore and the Devonport Regional Gallery before boarding the Spirit of Tasmania ferry. The ship is an experience in itself — grab a window seat and watch the Tasmanian coast recede as you head out into Bass Strait.",
             evening:
               "Settle into your cabin for the overnight crossing to Melbourne. Enjoy dinner on board as you sail through the night across one of the world's most legendary stretches of water.",
           },
           funFacts: [
-            "The Spirit of Tasmania crosses Bass Strait in about 11 hours, covering 430 kilometres of open ocean.",
-            "Bass Strait is named after George Bass, who confirmed Tasmania was an island in 1798 by sailing all the way around it.",
+            "Sheffield became the 'Town of Murals' in 1986 when locals painted their first mural to boost tourism — it worked so well that the town now has over 60 murals and hosts an annual mural festival.",
+            "Latrobe is officially the Platypus Capital of the World. The shy creatures are best spotted at dawn and dusk in the Mersey River — look for the telltale ripples on the water's surface.",
           ],
         },
       ],
