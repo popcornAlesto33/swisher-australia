@@ -629,7 +629,10 @@ export const trip: Trip = {
           dayNumber: 15,
           title: "Kangaroos on the Beach",
           subtitle: "Pebbly Beach and onward to Kangaroo Valley",
-          location: { lat: -35.615, lng: 150.29 },
+          location: { lat: -34.7369, lng: 150.5311 },
+          stops: [
+            { name: "Pebbly Beach", location: { lat: -35.615, lng: 150.29 } },
+          ],
           heroImage:
             "https://images.unsplash.com/photo-1593936665706-dda72782f4f3?w=1200&q=80",
           accommodation: "Accommodation in Kangaroo Valley",
