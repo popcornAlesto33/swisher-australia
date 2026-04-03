@@ -85,7 +85,6 @@ export default function TripMap({ trip }: TripMapProps) {
             pathOptions={{
               color: "#999",
               weight: 2,
-              dashArray: "10, 10",
               opacity: 0.5,
             }}
           />
