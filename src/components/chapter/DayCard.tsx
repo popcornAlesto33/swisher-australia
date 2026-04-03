@@ -48,7 +48,18 @@ export default function DayCard({ day, chapterColor }: DayCardProps) {
       <h3 className="font-heading text-xl font-bold text-charcoal mb-1">
         {day.title}
       </h3>
-      <p className="text-charcoal/70 mb-5">{day.subtitle}</p>
+      <p className="text-charcoal/70 mb-3">{day.subtitle}</p>
+
+      {/* Accommodation */}
+      {day.accommodation && (
+        <div className="flex items-center gap-2 mb-5 px-3 py-2 bg-tan-light/50 rounded-lg">
+          <span className="text-sm" aria-hidden="true">🏨</span>
+          <p className="text-sm text-charcoal/60">
+            <span className="font-medium text-charcoal/70">Staying: </span>
+            {day.accommodation}
+          </p>
+        </div>
+      )}
 
       {/* Activities */}
       <div>

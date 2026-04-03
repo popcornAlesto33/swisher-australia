@@ -38,8 +38,9 @@ export default function TablePage() {
               <thead>
                 <tr className="bg-charcoal text-cream">
                   <th className="py-3 px-4 text-left font-semibold w-20">Day</th>
-                  <th className="py-3 px-4 text-left font-semibold w-32">Date</th>
-                  <th className="py-3 px-4 text-left font-semibold w-64">Location</th>
+                  <th className="py-3 px-4 text-left font-semibold w-28">Date</th>
+                  <th className="py-3 px-4 text-left font-semibold w-48">Location</th>
+                  <th className="py-3 px-4 text-left font-semibold w-52">Accommodation</th>
                   <th className="py-3 px-4 text-left font-semibold">Highlights</th>
                 </tr>
               </thead>
@@ -49,7 +50,7 @@ export default function TablePage() {
                     {/* Chapter header row */}
                     <tr key={`chapter-${chapter.slug}`}>
                       <td
-                        colSpan={4}
+                        colSpan={5}
                         className="py-3 px-4 text-white font-semibold text-base"
                         style={{ backgroundColor: chapter.color }}
                       >
@@ -100,6 +101,14 @@ export default function TablePage() {
                               >
                                 {day.title}
                               </span>
+                            </Link>
+                          </td>
+                          <td className="py-4 px-4 border-b border-tan/30 text-charcoal/60 text-sm">
+                            <Link
+                              href={`/chapter/${chapter.slug}#day-${day.dayNumber}`}
+                              className="block w-full h-full"
+                            >
+                              {day.accommodation || "—"}
                             </Link>
                           </td>
                           <td className="py-4 px-4 border-b border-tan/30 text-charcoal/70 max-w-xs">
@@ -160,6 +169,12 @@ export default function TablePage() {
                         <p className="text-sm text-charcoal/60 leading-snug">
                           {day.subtitle}
                         </p>
+                        {day.accommodation && (
+                          <p className="text-xs text-charcoal/40 mt-2 flex items-center gap-1.5">
+                            <span>🏨</span>
+                            {day.accommodation}
+                          </p>
+                        )}
                       </div>
                     </Link>
                   ))}

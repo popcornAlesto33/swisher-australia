@@ -29,6 +29,7 @@ export interface Day {
     afternoon?: string;
     evening?: string;
   };
+  accommodation?: string;
   funFacts?: string[];
   highlights?: Highlight[];
 }

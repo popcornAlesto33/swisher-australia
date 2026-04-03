@@ -27,6 +27,7 @@ export const trip: Trip = {
           location: { lat: -33.8568, lng: 151.2153 },
           heroImage:
             "https://images.unsplash.com/photo-1760129744152-14bbc87f21b6?w=1200&q=80",
+          accommodation: "Henry's apartment, Sydney (TBD)",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1760129744152-14bbc87f21b6?w=400&q=80",
@@ -65,6 +66,7 @@ export const trip: Trip = {
           location: { lat: -33.8568, lng: 151.2153 },
           heroImage:
             "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80",
+          accommodation: "Henry's apartment, Sydney (TBD)",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=400&q=80",
@@ -103,6 +105,7 @@ export const trip: Trip = {
           location: { lat: -33.8915, lng: 151.2767 },
           heroImage:
             "https://images.unsplash.com/photo-1506563613713-f88697472a45?w=1200&q=80",
+          accommodation: "Henry's apartment, Sydney (TBD)",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1506563613713-f88697472a45?w=400&q=80",
@@ -141,6 +144,7 @@ export const trip: Trip = {
           location: { lat: -33.7963, lng: 151.2876 },
           heroImage:
             "https://images.unsplash.com/photo-1539685195332-c100780cd0db?w=1200&q=80",
+          accommodation: "Henry's apartment, Sydney (TBD)",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1539685195332-c100780cd0db?w=400&q=80",
@@ -196,6 +200,7 @@ export const trip: Trip = {
           location: { lat: -42.8826, lng: 147.334 },
           heroImage:
             "https://images.unsplash.com/photo-1586875573579-9946a83231f6?w=1200&q=80",
+          accommodation: "Hotel in Hobart CBD",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1586875573579-9946a83231f6?w=400&q=80",
@@ -234,6 +239,7 @@ export const trip: Trip = {
           location: { lat: -42.8266, lng: 147.292 },
           heroImage:
             "https://images.unsplash.com/photo-1525861008433-cfea0a30ceee?w=1200&q=80",
+          accommodation: "Hotel in Hobart CBD",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1525861008433-cfea0a30ceee?w=400&q=80",
@@ -272,6 +278,7 @@ export const trip: Trip = {
           location: { lat: -42.1547, lng: 148.2873 },
           heroImage:
             "https://images.unsplash.com/photo-1672313669835-d2a9a2d53c82?w=1200&q=80",
+          accommodation: "Accommodation near Freycinet / Coles Bay",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1672313669835-d2a9a2d53c82?w=400&q=80",
@@ -310,6 +317,7 @@ export const trip: Trip = {
           location: { lat: -42.1547, lng: 148.2873 },
           heroImage:
             "https://images.unsplash.com/photo-1627259880805-0e2c1b547200?w=1200&q=80",
+          accommodation: "Accommodation near Freycinet / Coles Bay",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1627259880805-0e2c1b547200?w=400&q=80",
@@ -348,6 +356,7 @@ export const trip: Trip = {
           location: { lat: -41.8, lng: 146.5 },
           heroImage:
             "https://images.unsplash.com/photo-1651954329391-85bac3e8c228?w=1200&q=80",
+          accommodation: "Cradle Mountain lodge or cabin",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1651954329391-85bac3e8c228?w=400&q=80",
@@ -386,6 +395,7 @@ export const trip: Trip = {
           location: { lat: -41.6369, lng: 145.9388 },
           heroImage:
             "https://images.unsplash.com/photo-1628652462682-a7f26698096a?w=1200&q=80",
+          accommodation: "Cradle Mountain lodge or cabin",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1628652462682-a7f26698096a?w=400&q=80",
@@ -424,6 +434,7 @@ export const trip: Trip = {
           location: { lat: -41.1794, lng: 146.3628 },
           heroImage:
             "https://images.unsplash.com/photo-1690252231330-b7f87a625bd8?w=1200&q=80",
+          accommodation: "Overnight on Spirit of Tasmania ferry",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1734473975048-eafc5fc4cf0c?w=400&q=80",
@@ -479,6 +490,7 @@ export const trip: Trip = {
           location: { lat: -37.8136, lng: 144.9631 },
           heroImage:
             "https://images.unsplash.com/photo-1720522753737-f2e630fdf69c?w=1200&q=80",
+          accommodation: "Hotel in Melbourne CBD",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1720522753737-f2e630fdf69c?w=400&q=80",
@@ -517,6 +529,7 @@ export const trip: Trip = {
           location: { lat: -37.869, lng: 147.796 },
           heroImage:
             "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?w=1200&q=80",
+          accommodation: "Accommodation near Paynesville / Raymond Island",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?w=400&q=80",
@@ -555,6 +568,7 @@ export const trip: Trip = {
           location: { lat: -37.88, lng: 147.9936 },
           heroImage:
             "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=1200&q=80",
+          accommodation: "Accommodation near Batemans Bay / NSW South Coast",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1575546634550-7568f9603bdd?w=400&q=80",
@@ -593,6 +607,7 @@ export const trip: Trip = {
           location: { lat: -35.615, lng: 150.29 },
           heroImage:
             "https://images.unsplash.com/photo-1593936665706-dda72782f4f3?w=1200&q=80",
+          accommodation: "Accommodation in Kangaroo Valley",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1593936665706-dda72782f4f3?w=400&q=80",
@@ -648,6 +663,7 @@ export const trip: Trip = {
           location: { lat: -34.7369, lng: 150.5311 },
           heroImage:
             "https://images.unsplash.com/photo-1602459762288-391c238ba147?w=1200&q=80",
+          accommodation: "Accommodation in Kangaroo Valley",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1602459762288-391c238ba147?w=400&q=80",
@@ -686,6 +702,7 @@ export const trip: Trip = {
           location: { lat: -34.7369, lng: 150.5311 },
           heroImage:
             "https://images.unsplash.com/photo-1773020934003-4294b49ea11e?w=1200&q=80",
+          accommodation: "Accommodation in Kangaroo Valley",
           highlights: [
             {
               image: "https://images.unsplash.com/photo-1725589982773-23a1bd3765b8?w=400&q=80",
