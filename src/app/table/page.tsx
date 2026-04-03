@@ -63,7 +63,7 @@ export default function TablePage() {
                       const isEven = dayIndex % 2 === 0;
                       const morningHighlight =
                         day.activities.morning
-                          ? day.activities.morning.split(".")[0] + "."
+                          ? day.activities.morning.split(/\.(?!\d)/)[0] + "."
                           : day.subtitle;
 
                       return (
