@@ -8,6 +8,8 @@ export default function HeroSection() {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80"
+        srcSet="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=640&q=80 640w, https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80 1200w"
+        sizes="100vw"
         alt="Sydney Opera House and Harbour Bridge at sunset"
         className="absolute inset-0 w-full h-full object-cover"
         fetchPriority="high"

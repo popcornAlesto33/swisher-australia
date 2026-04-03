@@ -17,10 +17,13 @@ export default function ChapterCard({ chapter }: ChapterCardProps) {
         {/* Image section */}
         <div className="relative sm:w-2/5 aspect-[4/3] sm:aspect-auto sm:min-h-[220px]">
           <img
-            src={chapter.heroImage}
+            src={chapter.heroImage.replace("w=1200", "w=600")}
+            srcSet={`${chapter.heroImage.replace("w=1200", "w=400")} 400w, ${chapter.heroImage.replace("w=1200", "w=600")} 600w`}
+            sizes="(max-width: 640px) 100vw, 40vw"
             alt={`${chapter.title} — ${chapter.subtitle}`}
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             loading="lazy"
+            decoding="async"
             width={600}
             height={450}
           />

@@ -8,6 +8,11 @@ interface HighlightGalleryProps {
   chapterColor: string;
 }
 
+/** Swap the width param in an Unsplash URL */
+function resizeUrl(url: string, width: number): string {
+  return url.replace(/w=\d+/, `w=${width}`);
+}
+
 export default function HighlightGallery({ highlights, chapterColor }: HighlightGalleryProps) {
   const [selected, setSelected] = useState<number | null>(null);
 
@@ -20,15 +25,18 @@ export default function HighlightGallery({ highlights, chapterColor }: Highlight
             key={i}
             onClick={() => setSelected(i)}
             className="group relative rounded-lg overflow-hidden aspect-[4/3] cursor-pointer
-                       focus:outline-none focus:ring-2 focus:ring-offset-2"
+                       focus:outline-none focus:ring-2 focus:ring-offset-2 bg-charcoal/5"
             style={{ "--tw-ring-color": chapterColor } as React.CSSProperties}
             aria-label={`View ${h.title}`}
           >
             <img
-              src={h.image}
+              src={resizeUrl(h.image, 200)}
+              srcSet={`${resizeUrl(h.image, 200)} 200w, ${resizeUrl(h.image, 400)} 400w`}
+              sizes="(max-width: 640px) 45vw, 200px"
               alt={h.title}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
               loading="lazy"
+              decoding="async"
               width={400}
               height={300}
             />
@@ -60,10 +68,10 @@ export default function HighlightGallery({ highlights, chapterColor }: Highlight
             className="relative max-w-3xl w-full bg-white rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Image */}
-            <div className="relative aspect-[16/10]">
+            {/* Image — loads full resolution only when lightbox opens */}
+            <div className="relative aspect-[16/10] bg-charcoal/10">
               <img
-                src={highlights[selected].image.replace("w=400", "w=1200").replace("w=600", "w=1200")}
+                src={resizeUrl(highlights[selected].image, 1200)}
                 alt={highlights[selected].title}
                 className="w-full h-full object-cover"
                 width={1200}

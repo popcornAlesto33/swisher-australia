@@ -14,6 +14,8 @@ export default function ChapterHero({ chapter }: ChapterHeroProps) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={chapter.heroImage}
+        srcSet={`${chapter.heroImage.replace("w=1200", "w=640")} 640w, ${chapter.heroImage} 1200w`}
+        sizes="100vw"
         alt={`${chapter.title} — ${chapter.subtitle}`}
         className="absolute inset-0 w-full h-full object-cover"
         fetchPriority="high"
