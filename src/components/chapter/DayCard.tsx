@@ -1,6 +1,7 @@
 import { Day } from "@/lib/types";
 import FunFact from "./FunFact";
 import HighlightGallery from "./HighlightGallery";
+import FeedbackForm from "./FeedbackForm";
 
 interface DayCardProps {
   day: Day;
@@ -92,6 +93,9 @@ export default function DayCard({ day, chapterColor }: DayCardProps) {
           ))}
         </div>
       )}
+
+      {/* Feedback */}
+      <FeedbackForm dayNumber={day.dayNumber} chapterColor={chapterColor} />
     </div>
   );
 }
